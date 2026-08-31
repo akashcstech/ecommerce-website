@@ -3,6 +3,7 @@ import './Orders.css'
 export function Orders(){
     return(
         <>
+            <link rel="icon" type="image/png" href="./public/images/favicon/orders-favicon.png" />
             <title>Orders</title>
             <Header />
 

@@ -3,6 +3,7 @@ import './Tracking.css'
 export function Tracking() {
   return (
     <>
+      <link rel="icon" type="image/png" href="./public/images/favicon/tracking-favicon.png" />
       <title>Tracking</title>   
       <Header />
 
