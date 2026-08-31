@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router';
 import {Orders} from './pages/Orders'
 import { HomePage } from './pages/HomePage';
 import { CheckOutPage } from './pages/CheckOutPage';
+import { Tracking } from './pages/Tracking';
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Route path='/' element={<HomePage />} />
       <Route path='Orders' element={<Orders />} />
       <Route path='CheckOut' element={<CheckOutPage />} />
+      <Route path='Tracking' element={<Tracking />} />
     </Routes>
   );
 }
